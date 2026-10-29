@@ -17,7 +17,7 @@ export default function Navbar() {
     // }
 
   return (
-    <div className='h-25 flex justify-between items-end pb-2 px-2 border-b-white border-b bg-black'>
+    <div className='h-25 flex justify-between items-end pb-2 px-2 border-b-white border-b bg-black w-full'>
         <Link href={'/#header'} className='flex flex-col'>
             <div className='text-6xl font-black italic'>SST</div>
             <div className='text-xs'>

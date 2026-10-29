@@ -6,19 +6,19 @@ import { SiMinutemailer } from "react-icons/si";
 
 export default function Home() {
   return (
-    <div>
+    <main className="max-w-350">
 
-      <Navbar />
+      
 
       {/* <img src={'/SSTBannerBefore.png'} className="w-full max-w-[1080px]" /> */}
       
       
       <div id="header" className="flex flex-col items-center justify-center pt-12 h-150 border-b-white border-b pb-24">
-        <div className="text-4xl md:text-6xl font-black pb-8 mx-4 text-center">
+        <div className="text-4xl md:text-6xl font-black pb-8 mx-4 text-center z-5">
           Welcome to SST
         </div>
 
-        <div className="text-center max-w-240 mt-4 text-lg md:text-2xl mx-8">
+        <div className="text-center max-w-240 mt-4 text-lg md:text-2xl mx-8 z-5">
           We provide a multitude of instrument and equipment rental services to the entertainment industry of the Greater Los Angeles Area.
         </div>
 
@@ -81,6 +81,6 @@ export default function Home() {
 
       {/* Contact Us */}
 
-    </div>
+    </main>
   );
 }
